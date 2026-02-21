@@ -1,20 +1,35 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# Addome 360 – Guida Premium alla Trasformazione Fisica
 
-# Run and deploy your AI Studio app
+Un'applicazione web moderna, interattiva e performante che guida l'utente attraverso un percorso di 10 capitoli per trasformare il proprio addome. Non è una semplice dieta, ma un sistema completo basato su scienza, biomeccanica e sostenibilità.
 
-This contains everything you need to run your app locally.
+## 🚀 Caratteristiche
+- **10 Capitoli Strategici**: Dalla fisiologia del grasso addominale alla gestione della vita sociale.
+- **Design Premium**: Interfaccia curata con Tailwind CSS, animazioni fluide con Framer Motion e icone Lucide-React.
+- **Tabella di Marcia 30 Giorni**: Un piano d'azione quotidiano per passare dalla teoria alla pratica.
+- **Approccio Scientifico**: Focus su NEAT, deficit calorico sostenibile, allenamento di forza e postura.
 
-View your app in AI Studio: https://ai.studio/apps/534c0b2c-7363-4f40-a7a1-f9ecb3a1a304
+## 🛠️ Tech Stack
+- **React 18**
+- **TypeScript**
+- **Tailwind CSS** (Styling)
+- **Framer Motion** (Animazioni)
+- **Lucide React** (Icone)
+- **Vite** (Build Tool)
 
-## Run Locally
+## 📦 Installazione Locale
 
-**Prerequisites:**  Node.js
+1. Clona il repository:
+   ```bash
+   git clone https://github.com/TUO-USERNAME/addome-360.git
+   ```
+2. Installa le dipendenze:
+   ```bash
+   npm install
+   ```
+3. Avvia il server di sviluppo:
+   ```bash
+   npm run dev
+   ```
 
-
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## 📄 Licenza
+Distribuito sotto licenza MIT.
