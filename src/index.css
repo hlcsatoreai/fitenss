@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+}
+
+@layer base {
+  body {
+    @apply bg-[#fafafa] text-zinc-900 antialiased;
+  }
+}
+
+.markdown-body h1 {
+  @apply font-serif text-5xl md:text-7xl font-bold tracking-tighter mb-8 leading-none;
+}
+
+.markdown-body h2 {
+  @apply font-serif text-3xl md:text-4xl font-bold tracking-tight mt-12 mb-6 border-b border-zinc-200 pb-2;
+}
+
+.markdown-body h3 {
+  @apply text-xl md:text-2xl font-semibold tracking-tight mt-8 mb-4 text-zinc-700;
+}
+
+.markdown-body p {
+  @apply text-lg leading-relaxed mb-6 text-zinc-600;
+}
+
+.markdown-body ul {
+  @apply space-y-3 mb-8;
+}
+
+.markdown-body li {
+  @apply flex items-start gap-3 text-lg text-zinc-600;
+}
+
+.markdown-body strong {
+  @apply font-bold text-zinc-900;
+}
+
+.glass-card {
+  @apply bg-white/80 backdrop-blur-md border border-white/20 shadow-xl;
+}
